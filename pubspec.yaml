@@ -1,0 +1,18 @@
+name: wall_guard
+description: هجوم الكوابيس - لعبة ثلاثية الأبعاد.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/game/index.html
